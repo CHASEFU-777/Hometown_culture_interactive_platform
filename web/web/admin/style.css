@@ -1,0 +1,98 @@
+/*!* 页面布局 *!*/
+.container {
+    display: flex;
+}
+
+/*.sidebar {*/
+/*    background-color: #042e5b;*/
+/*    color: #fff;*/
+/*    width: 240px;*/
+/*    height: 100vh;*/
+/*    padding: 20px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+.my-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #74a3a5;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    margin-top: 50px;
+}
+
+.my-button:hover {
+    background-color: #356365;
+}
+
+.my-button:active {
+    background-color: #356365;
+}
+
+.main-content {
+    /*flex-grow: 1;*/
+    padding: 40px;
+    margin-left: 100px;
+    /*box-sizing: border-box;*/
+}
+
+/*!* 菜单样式 *!*/
+/*h1 {*/
+/*    font-size: 28px;*/
+/*    margin-bottom: 30px;*/
+/*    font-weight: normal;*/
+/*}*/
+
+/*h1 span {*/
+/*    color: #6bb9f0;*/
+/*}*/
+
+/*ul {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    list-style-type: none;*/
+/*}*/
+
+/*li {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*a {*/
+/*    color: #fff;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*a:hover {*/
+/*    color: #6bb9f0;*/
+/*}*/
+
+
+
+
+/* 在高度小于 450 像素的小屏幕上，更改侧边栏的样式（更少的填充和更小的字体大小）*/
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.sx{
+    float:left;
+    margin-top: 70px;
+    width: 3px;
+    height: 270px;
+    background: darkgray;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+
+.ax{
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+}
